@@ -8,5 +8,5 @@ Given (/^this user exists$/) do |table|
 end
 
 Then (/^I should see a flash "([^"]*)"$/) do |msg|
-    page.should have_css('.flash_info', text: msg)
+    page.has_content?(msg)
 end
