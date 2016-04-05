@@ -23,5 +23,8 @@ Scenario: Log in to the website (sad path)
     And  I fill in "password" with "doe"
     And I press "Log in"
     Then I should see "Invalid username/password combination"
+    
+    #separate this into all possible scenarios (good username, wrong password and vice versa).
+    # use the same message though! beware of hackers!
 
 
