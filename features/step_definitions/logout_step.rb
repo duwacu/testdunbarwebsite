@@ -1,3 +1,3 @@
-Then (/^I should be logged out$/) do
-    page.path =~ logout_path
+Then (/^my session should end$/) do
+    pending
 end
