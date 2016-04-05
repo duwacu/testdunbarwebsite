@@ -6,8 +6,8 @@ Feature: login
 Background: I am on the home page
   Given this user exists
   | byter | byters606@googlegroups.com | byter123 |
-  
   Given I am on the home page
+  
 Scenario: Log in to the website (happy path)
     When I follow "Login"
     Then I should be on the Login page
